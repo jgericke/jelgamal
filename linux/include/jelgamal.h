@@ -1,8 +1,11 @@
-#ifndef H__JELGAMAL
-#define H__JELGAMAL
-
 /***
+  
+  JelGamal 
+  A conceptual ElGamal implementation, not intended for real world application.
+  J Gericke
+  (julian@jbg.za.org)
 
+  --------------------
   El Gamal Encryption:
   Let p be a prime, and g be a generator of Zp. The private key x is an integer between 1 and p − 2. Let y = g x mod p. The public key for El Gamal 
   encryption is the triplet (p, g, y). If taking discrete logarithms is as difficult as it is widely believed, releasing y = g x mod p does not reveal x.
@@ -16,6 +19,9 @@
   = M.
 
 ***/
+
+#ifndef H__JELGAMAL
+#define H__JELGAMAL
 
 #include <stdio.h>
 #include <stdlib.h>
